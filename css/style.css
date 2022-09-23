@@ -1,0 +1,232 @@
+@font-face{
+	font-family:myFirstFont;
+	src:url(tt0142m_.ttf);
+}
+* {
+   font-family: myFirstFont;
+}
+body{
+	font-family:myFirstFont;
+	margin:0px;
+	padding:0px;
+	background-color:#DDD;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+}
+.ce{text-align:center;}
+.le{text-align:left;}
+.mCon {
+    float: right;
+    padding-top: 7px;
+    margin-right: 15px;
+}
+.menu_dash {
+    padding: 2px;
+    margin: 4px;
+    background-color: #000;
+    width: 15px;
+}
+.heada1 {
+    padding: 7px;
+}
+.miniBg {
+    font-family: myFirstFont;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.box2Top, .boxSide2, .boxSide2noColor {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    min-height: inherit;
+    float: none;
+    margin: 0px;
+}
+.box2TopIn {
+    height: 300px;
+}
+.SliderImage {
+    width: 100%;
+    height: 300px;
+}
+
+.box2belowRed {
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+    font-size: 12px;
+}
+.spaceUpDown {
+    padding: 7px 0px;
+}
+
+.menu_head2x {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+.adBox {
+    width: 46%;
+    height: 150px;
+    display: inline-block;
+    margin: 2px;
+    vertical-align: text-top;
+}
+.wBg {
+    background-color: #FFF;
+}
+.imgFull {
+    width: 100%;
+    height: 100%;
+}
+.text{
+	font-size:17px;
+	margin:10px;
+}
+
+/* code for vertical slide */
+.card2, .card3 {
+    border-radius: 2px;
+    margin: 6px auto;
+    position: relative;
+    vertical-align: text-top;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.12), 0 4px 7px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    overflow: hidden;
+}
+.c1 {
+    text-align: left;
+    padding: 5px;
+}
+.c2, .c2x {
+    width: 92vw;
+    height: 31vw;
+    margin: auto;
+}
+.c2x {
+    width: 88vw;
+    margin-top: 4px;
+}
+.promo {
+    border-radius: 9px;
+    overflow: hidden;
+}
+.c4 {
+    width: 20vw;
+    height: 20vw;
+}
+.c4c {
+    display: inline-block;
+    margin: 4px;
+}
+.blac {
+    background-color: #111;
+    color: #fff;
+}
+.cir {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0px 5px 8px 2px #444;
+    background-color: #fff;
+    margin: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.icon1 {
+    height: 44px;
+}
+.pad {
+    padding: 15px;
+    max-width: 594px;
+}
+.round {
+    border-radius: 24px;
+    border: 2px #FFCC00 solid;
+    display: inline-block;
+    padding: 11px;
+}
+
+/* CODE ON STREET */
+.drop_cap{
+    font-size: 100px;
+    float: left;
+    line-height: 75%;
+}
+.carpet2 {
+    background: #09f;
+    margin: 15px 0px;
+    padding: 20px;
+}
+.button {
+    background: #f71;
+    padding: 15px;
+    border-radius: 50px;
+    margin: auto;
+    display: inline-block;
+    font-size: 21px;
+    color: #fff;
+    width: 200px;
+    cursor: pointer;
+}
+.shot_box{
+	display:inline-block;	
+}
+.bigger{
+	font-size:22px;
+}
+.seg2 img{
+	max-width:100%;
+}
+
+/* code for footer */
+footer {
+    padding: 0px 0px 10px 0px;
+    margin-top: 10px;
+    background-color: #ae5c05;
+}
+.fbox {
+    max-width: 300px;
+    display: inline-block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.66666667%;
+    flex: 0 0 41.66666667%;
+    padding-right: 15px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+.f1 {
+    float: left;
+    padding-left: 20px;
+    display: inline-block;
+}
+footer .text {
+    font-weight: 400;
+    line-height: 26px;
+}
+.fH {
+    color: #fff;
+    font-size: 18px;
+}
+.ll {
+    margin-bottom: 15px;
+}
+.ff {
+    color: #fff;
+    background-color: #1f1d1e;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+/* element that are not meant to display on big screen */
+.men{display:none;}
+/* ......*/
+@media screen and (max-width: 1200px) {
+	
+}
+@media screen and (max-width: 900px) {
+	
+}
